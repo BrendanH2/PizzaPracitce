@@ -1,0 +1,94 @@
+
+
+h2{ 
+	text-align: center;
+	margin-top: -0px;
+}
+
+
+td{
+	text-align: left;
+	
+}
+
+th{ 
+	text-align: left;
+}
+
+input{
+	font-weight: bold;
+}
+
+
+
+
+.ingredients{
+	border: 5px solid;
+	border-color: #000;
+	border-radius: 5%;
+	background: linear-gradient(to right, #99cc99, #99cc99, #99cc99, white, white, #ffbbbb, #ffbbbb, #ffbbbb);
+	
+}
+
+.button{
+	border: 5px solid #000;
+	text-align: center;
+}
+
+.button:hover {
+	color: #f00;
+	background-color: rgba(100,65,0,.3);
+	cursor: pointer;
+}
+
+
+
+
+
+@media screen and (max-width:400px) {
+	.ingredients{
+		width:100%;
+		height: auto;
+	}
+	
+	.button {
+		width: 100%;
+		height: auto;
+		border-radius: 5%;
+		margin-top: 2%;
+	}
+}
+
+
+
+
+@media  screen and (min-width: 400px){
+	.ingredients {
+		height: 336px;
+		width: 30%;
+		float: left;
+		margin-top: 1%;
+		margin-left:1%;
+	}
+	/* for desktop */
+
+	
+	.button {
+		height: 50px;
+		width:96%;
+		float: left;
+		margin-top: 1%;
+		margin-left: 1%;
+		border-radius: 10%;
+	}
+}
+
+
+#pizzariaName {
+	text-align: center;
+}
+
+
+
+
+

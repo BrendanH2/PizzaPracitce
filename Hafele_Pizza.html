@@ -1,0 +1,119 @@
+<!-- get atom and sublime -->
+	
+
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<title> Brendan's Pizza </title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./css/pizzamenu.css">
+
+</head>
+
+<body>
+	<h1 id=pizzariaName>Brendan's Pizza</h1>
+
+
+			<div class = "ingredients">	
+				<h2>SIZE</h2>
+				<h3>Basic Pizza.</h3>
+					<table>
+						<tr>
+							<td><input class = "size" type = "radio" name="size" value= "Personal" checked>Personal</th>
+							<td>&nbsp&nbsp&nbsp$6</td>
+						</tr>
+						<tr>
+							<td><input class = "size" type = "radio" name="size" value = "Medium">Medium</th>
+							<td>&nbsp&nbsp&nbsp$10</td>
+						</tr>
+						<tr>
+							<td><input class = "size" type = "radio" name="size" value = "Large">Large</th>
+							<td>&nbsp&nbsp&nbsp$14</td>
+						</tr>
+						<tr>
+							<td><input class = "size" type = "radio" name="size" value = "Extra Large">Extra Large</th>
+							<td>&nbsp&nbsp&nbsp$16</td>
+							</tr>
+					</table>
+			</div>
+			
+			
+			<div class = "ingredients"  >
+					<h2>CARNI</h2>
+					<h3>Basic pizza includes one meat.<br> Additional meats are $1.00 per meat</h3>
+						<input class = "meats" type = "checkbox" name="meat" value = "Pepperoni" > Pepperoni<br>
+						<input class = "meats" type = "checkbox" name="meat" value = "Sausage"> Sausage<br>
+						<input class = "meats" type = "checkbox" name="meat" value = "Cadadian Bacon"> Canadian Bacon<br>
+						<input class = "meats" type = "checkbox" name="meat" value = "Gound Beef"> Ground Beef<br>
+						<input class = "meats" type = "checkbox" name="meat" value = "Anchovy"> Anchovy<br>
+						<input class = "meats" type = "checkbox" name="meat" value = "chicken"> Chicken
+			</div>
+			
+			<div class = "ingredients" >	
+					<h2>FORMAGGI</h2>
+								
+						<input class = "cheese" type = "radio" name="cheese" value = "Regular" checked> Regular<br>
+						<input class = "cheese" type = "radio" name="cheese" value = "No Cheese"> No Cheese<br>
+						<input class = "cheese" type = "radio" name="cheese" value = "Extra Cheese"> Extra Cheese  &nbsp&nbsp&nbsp $3     <!-- extra cheese is $3.00 -->
+			</div>
+			
+			<div class = "ingredients" div>
+					<h2>CRUST</h2>
+						<input class = "crust" type = "radio" name="crust" value = "Plain Crust" checked> Plain Crust<br>
+						<input class = "crust" type = "radio" name="crust" value = "Garlic Butter Crust"> Garlic Butter Crust<br>
+						<input class = "crust" type = "radio" name="crust" value = "Cheese Stuffed Crust"> Cheese Stuffed Crust &nbsp&nbsp&nbsp $3 <br> <!-- cheese stuffed crust is $3.00-->
+						<input class = "crust" type = "radio" name="crust" value = "Spicy Crust"> Spicy Crust<br>
+						<input class = "crust" type = "radio" name="crust" value = "House Special Crust"> House Special Crust 
+			</div>
+			
+			<div class = "ingredients" >
+					<h2>SUGI</h2>
+						<input class = "sauce" type = "radio" name="sauce" value = "Marinara Sauce" checked> Marinara Sauce<br> 
+						<input class = "sauce" type = "radio" name="sauce" value = "White Sauce"> White Sauce<br> 
+						<input class = "sauce" type = "radio" name="sauce" value = "Barbeque Sauce"> Barbeque Sauce<br>
+						<input class = "sauce" type = "radio" name="sauce" value = "No Sauce"> No Sauce
+			</div>
+			
+			
+			<div class = "ingredients" >
+					<h2>VERDI</h2>
+					<h3>Basic pizza includes one vegetable. Additional vegatables for $1.00 each</h3>
+						<input class = "vegetables" type = "checkbox" name="vegetable" value = "Tomatoes"> Tomatoes <br>
+						<input class = "vegetables" type = "checkbox" name="vegetable" value = "Onions"> Onions <br>
+						<input class = "vegetables" type = "checkbox" name="vegetable" value = "Green Peppers"> Green Peppers<br> 
+						<input class = "vegetables" type = "checkbox" name="vegetable" value = "Mushrooms"> Mushrooms<br>
+						<input class = "vegetables" type = "checkbox" name="vegetable" value = "Pineapple"> Pineapple<br>
+						<input class = "vegetables" type = "checkbox" name="vegetable" value = "Spinach"> Spinach<br>
+						<input class = "vegetables" type = "checkbox" name="vegetable" value = "Jalapeno"> Jalapeno
+				</div>
+				
+		
+				
+		
+		
+		<div id="btnOrder" class= "button" onclick = "getReceipt()">	
+			<p>Place Order</p>
+		</div>
+		<br>
+		<br>
+		
+		
+		<div id="cart">
+			<div id="showText"></div>
+			<div id="totalPrice"></div>
+		</div>	
+
+			
+<script src="./js/pizzaProject.js">
+
+	
+</script> 
+
+<br>
+<br>
+<br>
+	
+</body>
+
+
+</html>
